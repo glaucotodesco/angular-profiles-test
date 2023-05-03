@@ -1,8 +1,9 @@
 # Tests:
+    ng serve --open --configuration=mock
 
-ng serve --open --configuration=mock
-ng serve --open --configuration=development
-ng serve --open --configuration=production
+    ng serve --open --configuration=development
+    
+    ng serve --open --configuration=production
 
 Each profile inject a correct AuthService Dependency!
 
